@@ -1,0 +1,47 @@
+<resources>
+
+    <item name="question_spacing" format="float" type="dimen">1.2</item>
+
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">16dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    
+    <dimen name="main_title_text_size">85sp</dimen>
+    <dimen name="main_subtitle_text_size">32sp</dimen>
+    
+    <dimen name="title_layout_top_margin">200dp</dimen>
+    
+    <dimen name="main_button_text_size">25sp</dimen>
+	<dimen name="main_buttons_bottom_margin">80dp</dimen>
+
+	<dimen name="globe_size">220dp</dimen>
+    <dimen name="cloud_size">150dp</dimen>
+    
+    <dimen name="type_of_game_announce_margin">40dp</dimen>
+    <dimen name="type_game_button_width">180dp</dimen>
+    <dimen name="type_of_game_announce_text_size">26sp</dimen>
+    
+    <dimen name="answer_button_text_size">20sp</dimen>
+    
+    <dimen name="highscores_top_margin">160dp</dimen>
+    
+    <dimen name="banner_padding">30dp</dimen>
+    <dimen name="share_dialog_bottom_padding">0dp</dimen>
+    
+    <dimen name="settings_buttons_top_margin">20dp</dimen>
+    <dimen name="settings_bg_side_margins">20dp</dimen>
+    
+    <dimen name="timing_seekbar_side_margin">10dp</dimen>
+    <dimen name="timing_seekbar_top_bottom_margin">20dp</dimen>
+    <dimen name="timing_padding">10dp</dimen>
+    
+    <dimen name="share_dialog_width">250dp</dimen>
+    <dimen name="share_dialog_height">350dp</dimen>
+    
+    <dimen name="share_scores_text_size">20sp</dimen>
+    <dimen name="about_content_top_margin">0dp</dimen>
+    
+    <dimen name="settings_top_margin">50dp</dimen>
+    <dimen name="highscores_item_bottom_margin">5dp</dimen>
+    
+</resources>

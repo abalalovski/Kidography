@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_timing"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/timing_seekbar_side_margin"
+    android:layout_marginRight="@dimen/timing_seekbar_side_margin"
+    android:layout_marginTop="@dimen/timing_seekbar_top_bottom_margin"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="@dimen/timing_padding" >
+
+    <TextView
+        android:id="@+id/textview_timing_seconds"
+        style="@style/settingsTextViewStyle"
+        android:text="@string/game_timing_init" />
+
+    <SeekBar
+        android:id="@+id/seekBar_timing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="18"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:progressDrawable="@drawable/timing_seekbar_bg"
+        android:thumb="@drawable/hourglass" />
+
+    <TextView
+        android:id="@+id/textview_timing_label"
+        style="@style/settingsTextViewStyle"
+        android:text="@string/game_time" />
+
+</LinearLayout>

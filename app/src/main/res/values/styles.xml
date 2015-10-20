@@ -1,0 +1,82 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppThemeLight" parent="@android:style/Theme.NoTitleBar">
+        <!--<item name="com.twodwarfs.kidography:switchStyle">@style/switch_light</item>-->
+    </style>
+
+    <style name="BorderlessDialogStyle" parent="@android:style/Theme.Holo.Light.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/BorderlessDialogAnimationStyle</item>
+    </style>
+
+    <style name="BorderlessDialogAnimationStyle">
+        <item name="android:windowEnterAnimation">@anim/translate_bottom_up</item>
+        <item name="android:windowExitAnimation">@anim/translate_up_bottom</item>
+    </style>
+
+    <style name="answerButtonStyle" parent="android:Widget.DeviceDefault.Light.Button">
+        <item name="android:background">@drawable/general_button_selector</item>
+        <item name="android:layout_margin">@dimen/answer_button_margin</item>
+        <item name="android:paddingLeft">@dimen/answer_button_padding</item>
+        <item name="android:paddingRight">@dimen/answer_button_padding</item>
+        <item name="android:shadowColor">@android:color/black</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:layout_width">@dimen/answer_button_width</item>
+        <item name="android:layout_height">@dimen/answer_button_height</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/answer_button_text_size</item>
+        <item name="android:visibility">invisible</item>
+        <item name="android:text">@android:id/empty</item>
+    </style>
+
+    <style name="mainButtonStyle" parent="android:Widget.Button">
+        <item name="android:background">@drawable/general_button_selector</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/main_button_text_size</item>
+        <item name="android:shadowColor">@android:color/black</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:soundEffectsEnabled">false</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:layout_margin">@dimen/main_buttons_margin</item>
+        <item name="android:layout_width">@dimen/main_button_width</item>
+        <item name="android:layout_height">@dimen/main_button_height</item>
+    </style>
+
+    <style name="dialogButtonStyle" parent="mainButtonStyle">
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:soundEffectsEnabled">false</item>
+        <item name="android:layout_width">@dimen/dialog_button_width</item>
+        <item name="android:layout_height">@dimen/dialog_button_height</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="settingsTextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/settings_textview_left_margin</item>
+        <item name="android:textColor">@color/general_titles_text_color</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:shadowColor">@android:color/white</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <style name="dialogTitleStyle" parent="android:Widget.TextView">
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:shadowColor">@android:color/black</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:textColor">@color/general_dialog_title_color</item>
+        <item name="android:textSize">@dimen/general_title_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

@@ -1,0 +1,142 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:paddingBottom="@dimen/dialog_bottom_padding"
+    android:paddingTop="@dimen/settings_layout_padding_top_and_bottom">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="@dimen/settings_bg_side_margins"
+        android:layout_marginRight="@dimen/settings_bg_side_margins"
+        android:layout_marginTop="@dimen/settings_main_layout_buttons_top_margin"
+        android:background="@drawable/dialog_bg">
+
+        <LinearLayout
+            android:id="@+id/layout_settings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/settings_top_margin"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:id="@+id/layout_bg_music"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/settings_buttons_left_margin"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <Switch
+                    android:id="@+id/button_music_switch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/textview_bg_music"
+                    style="@style/settingsTextViewStyle"
+                    android:text="@string/bg_music" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_sounds"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/settings_buttons_left_margin"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <Switch
+                    android:id="@+id/button_sounds_switch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/textview_sounds"
+                    style="@style/settingsTextViewStyle"
+                    android:text="@string/sounds" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_anim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/settings_buttons_left_margin"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <Switch
+                    android:id="@+id/button_anim_switch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/textview_animations"
+                    style="@style/settingsTextViewStyle"
+                    android:text="@string/animations" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_tips"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/settings_buttons_left_margin"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <Switch
+                    android:id="@+id/button_tips_switch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/textview_tips"
+                    style="@style/settingsTextViewStyle"
+                    android:text="@string/show_tips" />
+            </LinearLayout>
+
+            <include layout="@layout/timing_layout" />
+
+            <LinearLayout
+                android:id="@+id/layout_buttons"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/settings_buttons_top_margin"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button_ok"
+                    style="@style/dialogButtonStyle"
+                    android:text="@string/ok" />
+
+                <Button
+                    android:id="@+id/button_cancel"
+                    style="@style/dialogButtonStyle"
+                    android:text="@string/cancel"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView_settings_title"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/settings_title_height"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/settings_title_top_margin"
+        android:contentDescription="@string/settings_label"
+        android:scaleType="fitCenter"
+        android:src="@drawable/settings_title"
+        android:visibility="visible" />
+
+</RelativeLayout>

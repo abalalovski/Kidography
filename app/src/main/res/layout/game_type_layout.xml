@@ -1,0 +1,163 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg"
+    android:gravity="center_vertical" >
+
+    <RelativeLayout
+        android:id="@+id/layout_name_tree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="0dp"
+        android:paddingLeft="10dp" >
+
+        <ImageView
+            android:id="@+id/imageView_name_tree"
+            android:layout_width="@dimen/name_tree_width"
+            android:layout_height="@dimen/name_tree_height"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="10dp"
+            android:contentDescription="@string/name_tree_desc"
+            android:scaleType="fitXY"
+            android:src="@drawable/name_screen_header" />
+
+        <ImageView
+            android:id="@+id/imageView_name_blue_bird"
+            android:layout_width="@dimen/name_screen_bird_size"
+            android:layout_height="@dimen/name_screen_bird_size"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="@dimen/name_screen_blue_bird_left_margin"
+            android:layout_marginTop="@dimen/name_screen_bird_top_margin"
+            android:contentDescription="@string/name_tree_desc"
+            android:scaleType="fitXY"
+            android:src="@drawable/name_blue_bird" />
+
+        <ImageButton
+            android:id="@+id/imageButton_edit_name"
+            android:layout_width="@dimen/name_screen_bird_size"
+            android:layout_height="@dimen/name_screen_bird_size"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="@dimen/name_screen_purple_bird_right_margin"
+            android:layout_marginTop="@dimen/name_screen_bird_top_margin"
+            android:background="@null"
+            android:contentDescription="@string/name_tree_desc"
+            android:scaleType="fitXY"
+            android:src="@drawable/name_pink_bird" />
+
+        <TextView
+            android:id="@+id/textView_game_type_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/name_screen_game_type_label_top_margin"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="0"
+            android:shadowDy="1"
+            android:shadowRadius="1"
+            android:text="@string/game_type_desc"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/type_of_game_announce_text_size"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/textView_player_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/name_screen_player_name_top_margin"
+            android:shadowColor="@android:color/white"
+            android:shadowDx="0"
+            android:shadowDy="1"
+            android:shadowRadius="1"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/type_of_game_announce_text_size"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+    <ViewFlipper
+        android:id="@+id/game_types_flipper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_name_tree"
+        android:gravity="center"
+        android:inAnimation="@anim/translate_left_to_right_in"
+        android:outAnimation="@anim/translate_left_to_right_out" >
+
+        <LinearLayout
+            android:id="@+id/layout_questions_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button_twelver"
+                style="@style/mainButtonStyle"
+                android:layout_width="@dimen/type_game_button_width"
+                android:text="@string/twelve_game_type" />
+
+            <Button
+                android:id="@+id/button_time_limit"
+                style="@style/mainButtonStyle"
+                android:layout_width="@dimen/type_game_button_width"
+                android:text="@string/time_limit_game_type" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_categories"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button_first_cat"
+                style="@style/mainButtonStyle"
+                android:layout_width="@dimen/type_game_button_width"
+                android:text="@string/first_category_name" />
+
+            <Button
+                android:id="@+id/button_second_cat"
+                style="@style/mainButtonStyle"
+                android:layout_width="@dimen/type_game_button_width"
+                android:text="@string/second_category_name" />
+
+            <Button
+                android:id="@+id/button_third_cat"
+                style="@style/mainButtonStyle"
+                android:layout_width="@dimen/type_game_button_width"
+                android:text="@string/third_category_name" />
+
+            <Button
+                android:id="@+id/button_fourth_cat"
+                style="@style/mainButtonStyle"
+                android:layout_width="@dimen/type_game_button_width"
+                android:text="@string/fourth_category_name" />
+        </LinearLayout>
+    </ViewFlipper>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/name_screen_settings_bottom_margin"
+        android:background="@null"
+        android:visibility="visible" >
+
+        <Button
+            android:id="@+id/button_settings"
+            style="@style/mainButtonStyle"
+            android:layout_width="@dimen/dialog_button_width"
+            android:layout_height="@dimen/dialog_button_height"
+            android:layout_centerInParent="true"
+            android:text="@string/settings_label"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

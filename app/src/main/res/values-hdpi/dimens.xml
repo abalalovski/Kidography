@@ -1,0 +1,158 @@
+<resources>
+    <item name="question_spacing" format="float" type="dimen">1.0</item>
+    
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    
+    <dimen name="button_padding">10dp</dimen>
+    
+    <dimen name="grass_height">80dp</dimen>
+    <dimen name="main_buttons_margin">5dp</dimen>
+    
+    <dimen name="main_title_text_size">55sp</dimen>
+    <dimen name="main_subtitle_text_size">22sp</dimen>
+    
+    <dimen name="left_landmark_left_margin">10dp</dimen>    
+    <dimen name="left_landmark_width">90dp</dimen>
+    <dimen name="left_landmark_height">190dp</dimen>
+    
+    <dimen name="left_cloud_top_margin">50dp</dimen>
+    <dimen name="left_cloud_left_margin">0dp</dimen>
+    <dimen name="right_cloud_top_margin">70dp</dimen>
+    <dimen name="right_cloud_right_margin">10dp</dimen>
+
+    <dimen name="right_landmark_right_margin">10dp</dimen>
+    <dimen name="right_landmark_width">70dp</dimen>
+    <dimen name="right_landmark_height">190dp</dimen>
+    
+    <dimen name="title_layout_top_margin">120dp</dimen>
+    
+    <dimen name="main_button_width">130dp</dimen>
+    <dimen name="main_button_height">50dp</dimen>
+    
+    <dimen name="dialog_button_width">100dp</dimen>
+    <dimen name="dialog_button_height">40dp</dimen>
+    
+    <dimen name="dialog_bottom_padding">50dp</dimen>
+    
+    <dimen name="layout_title_padding">30dp</dimen>
+
+    <dimen name="main_button_text_size">22sp</dimen>
+    <dimen name="main_buttons_bottom_margin">60dp</dimen>
+    
+    <dimen name="helper_button_text_size">16sp</dimen>
+    
+    <dimen name="globe_size">100dp</dimen>
+    <dimen name="compas_size">260dp</dimen>
+    <dimen name="rays_size">280dp</dimen>
+    
+    <dimen name="cloud_size">100dp</dimen>
+    
+    <dimen name="layout_title_margin_top">-50dp</dimen>
+    
+    <dimen name="game_type_settings_button_text_size">15sp</dimen>
+    
+    <dimen name="settings_textview_left_margin">5dp</dimen>
+    
+    <dimen name="type_of_game_announce_margin">20dp</dimen>
+    <dimen name="type_game_button_width">140dp</dimen>
+    <dimen name="type_of_game_announce_text_size">24sp</dimen>
+    
+    <dimen name="question_text_size">28sp</dimen>
+    
+    <dimen name="answer_button_width">140dp</dimen>
+    <dimen name="answer_button_height">50dp</dimen>
+    
+    <dimen name="answer_button_padding">0dp</dimen>
+    <dimen name="answer_button_text_size">18sp</dimen>
+    <dimen name="answer_button_margin">5dp</dimen>
+    
+    <dimen name="highscores_item_right_margin">10dp</dimen>
+    <dimen name="highscore_name_margin">10dp</dimen>
+    <dimen name="highscores_margin">10dp</dimen>
+    <dimen name="highscores_text_size">20sp</dimen>
+    <dimen name="highscores_title_text_size">25sp</dimen>
+    <dimen name="highscores_title_bottom_margin">20dp</dimen>
+    
+    <dimen name="flag_imageview_width">220dp</dimen>
+    <dimen name="flag_imageview_height">140dp</dimen>
+    
+    <dimen name="general_title_size">22sp</dimen>
+    
+    <dimen name="settings_layout_padding_top_and_bottom">40dp</dimen>
+    <dimen name="settings_buttons_left_margin">20dp</dimen>
+    <dimen name="settings_main_layout_buttons_top_margin">60dp</dimen>
+    <dimen name="settings_main_layout_buttons_left_margin">0dp</dimen>
+    <dimen name="settings_buttons_top_margin">0dp</dimen>
+    <dimen name="settings_title_height">50dp</dimen>
+    <dimen name="settings_title_top_margin">40dp</dimen>
+    <dimen name="settings_ok_cancel_buttons_top_margin">10dp</dimen>
+    <dimen name="timing_seekbar_side_margin">0dp</dimen>
+    
+    <dimen name="blue_bird_height">50dp</dimen>
+    <dimen name="purple_bird_width">90dp</dimen>
+    <dimen name="purple_bird_height">100dp</dimen>
+    <dimen name="blue_bird_left_margin">20dp</dimen>
+    <dimen name="purple_bird_top_margin">80dp</dimen>
+    
+    <dimen name="exit_layout_padding_top_and_bottom">70dp</dimen>
+    
+    <dimen name="about_layout_padding_top_and_bottom">40dp</dimen>
+    <dimen name="game_over_layout_padding_top_and_bottom">40dp</dimen>
+    
+    <dimen name="pause_layout_padding_top_and_bottom">20dp</dimen>
+    
+    <dimen name="name_tree_width">320dp</dimen>
+    <dimen name="name_tree_height">200dp</dimen>
+    
+    <dimen name="name_screen_bird_size">70dp</dimen>
+    <dimen name="name_screen_bird_top_margin">5dp</dimen>
+    <dimen name="name_screen_purple_bird_right_margin">15dp</dimen>
+    <dimen name="name_screen_blue_bird_left_margin">0dp</dimen>
+    <dimen name="name_screen_game_type_label_top_margin">135dp</dimen>
+    <dimen name="name_screen_player_name_top_margin">70dp</dimen>
+    <dimen name="name_screen_settings_bottom_margin">10dp</dimen>
+    
+    <dimen name="game_info_bottom_margin">10dp</dimen>
+    <dimen name="game_info_top_margin">0dp</dimen>
+    <dimen name="game_info_left_margin">0dp</dimen>
+    <dimen name="game_info_right_margin">0dp</dimen>
+    
+    <dimen name="question_title_width">220dp</dimen>
+    <dimen name="question_title_height">40dp</dimen>
+    <dimen name="question_title_top_margin">70dp</dimen>
+    
+    <dimen name="game_info_score_text_size">18sp</dimen>
+    
+    <dimen name="flag_padding">10dp</dimen>
+    
+    <dimen name="highscores_bg_margin">20dp</dimen>
+    <dimen name="highscores_padding">35dp</dimen>
+    <dimen name="highscores_item_bottom_margin">10dp</dimen>
+    <dimen name="highscores_list_top_margin">160dp</dimen>
+    
+    <dimen name="answers_buttons_bottom_margin">50dp</dimen>
+    
+    <dimen name="question_textview_margin">15dp</dimen>
+    
+    <dimen name="tip_padding">30dp</dimen>
+    <dimen name="tips_checkbox_left_margin">20dp</dimen>
+    <dimen name="tips_checkbox_top_margin">30dp</dimen>
+    <dimen name="tip_top_margin">10dp</dimen>
+    
+    <dimen name="banner_padding">20dp</dimen>
+    <dimen name="share_dialog_bottom_padding">0dp</dimen>
+    
+    <dimen name="about_content_top_margin">0dp</dimen>
+    
+    <dimen name="settings_bg_side_margins">0dp</dimen>
+    <dimen name="settings_top_margin">50dp</dimen>
+    
+    <dimen name="share_dialog_width">250dp</dimen>
+    <dimen name="share_dialog_height">350dp</dimen>
+    <dimen name="share_scores_text_size">18sp</dimen>
+    
+    <dimen name="about_text_size">20dp</dimen>
+    
+    
+</resources>

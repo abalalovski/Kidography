@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="point_info_color">#ff0000</color>
+    <color name="game_info_labels_color">#EC6B0E</color>
+    <color name="game_info_labels_shadow">#fff</color>
+    <color name="holo_blue">#33B5E5</color>
+    <color name="orange">#FD9405</color>
+    <color name="light_gray">#ECEDED</color>
+    <color name="grass_green">#BCDE04</color>
+    <color name="general_titles_text_color">#DC6719</color>
+    <color name="gray">#A3A3A3</color>
+    <color name="semi_transparent_gray">#30A3A3A3</color>
+    
+    <color name="general_dialog_title_color">#FFF</color>
+    
+    <color name="general_green">#8CDF21</color>
+    
+    <color name="highscores_item_color">#95500C0D</color>
+    
+    
+</resources>

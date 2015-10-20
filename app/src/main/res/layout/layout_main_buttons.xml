@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="@dimen/main_buttons_bottom_margin"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/button_new_game"
+        style="@style/mainButtonStyle"
+        android:text="@string/new_game" />
+
+    <Button
+        android:id="@+id/button_settings"
+        style="@style/mainButtonStyle"
+        android:text="@string/settings_label" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/button_highscores"
+            android:layout_width="@dimen/main_button_height"
+            android:layout_height="@dimen/main_button_height"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/small_general_button_selector"
+            android:contentDescription="@string/highscores_desc"
+            android:onClick="onButtonClick"
+            android:soundEffectsEnabled="false"
+            android:src="@drawable/highscores_normal" />
+
+        <ImageButton
+            android:id="@+id/button_about"
+            android:layout_width="@dimen/main_button_height"
+            android:layout_height="@dimen/main_button_height"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/small_general_button_selector"
+            android:contentDescription="@string/about_desc"
+            android:onClick="onButtonClick"
+            android:soundEffectsEnabled="false"
+            android:src="@drawable/about_normal" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<resources>
+
+    <dimen name="highscores_top_margin">150dp</dimen>
+    
+    <dimen name="dialog_bottom_padding">80dp</dimen>
+      
+    <dimen name="settings_buttons_top_margin">30dp</dimen>
+    <dimen name="settings_bg_side_margins">20dp</dimen>
+    
+    <dimen name="settings_top_margin">60dp</dimen>
+    
+</resources>

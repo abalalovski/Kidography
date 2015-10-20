@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/textView_highscore_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/highscores_item_bottom_margin"
+        android:layout_marginRight="@dimen/highscores_item_right_margin"
+        android:gravity="center"
+        android:shadowColor="@android:color/white"
+        android:shadowDx="0"
+        android:shadowDy="1"
+        android:shadowRadius="1"
+        android:textColor="@color/highscores_item_color"
+        android:textSize="@dimen/highscores_text_size"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView_highscore_scores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:gravity="left"
+        android:shadowColor="@android:color/white"
+        android:shadowDx="0"
+        android:shadowDy="1"
+        android:shadowRadius="1"
+        android:textColor="@color/highscores_item_color"
+        android:textSize="@dimen/highscores_text_size"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/share_root"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_bg"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/share_dialog_bottom_padding" >
+
+    <ImageView
+        android:id="@+id/imageView_banner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:contentDescription="@string/rays_content_desc"
+        android:paddingLeft="@dimen/banner_padding"
+        android:paddingRight="@dimen/banner_padding"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo_banner_small"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView_share_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:shadowColor="@android:color/white"
+        android:shadowDx="0"
+        android:shadowDy="1"
+        android:shadowRadius="1"
+        android:textColor="@color/highscores_item_color"
+        android:textSize="@dimen/share_scores_text_size"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_do_share"
+        style="@style/dialogButtonStyle"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/share" />
+
+</LinearLayout>

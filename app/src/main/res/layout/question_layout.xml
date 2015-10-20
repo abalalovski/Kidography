@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_question"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/layout_progressbar_timing"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="0dp"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/question_textview_margin"
+        android:layout_marginRight="@dimen/question_textview_margin"
+        android:gravity="center"
+        android:lineSpacingMultiplier="@dimen/question_spacing"
+        android:shadowColor="@android:color/white"
+        android:shadowDx="0"
+        android:shadowDy="1"
+        android:shadowRadius="1"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/question_text_size"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/imageView_flag"
+        android:layout_width="@dimen/flag_imageview_width"
+        android:layout_height="@dimen/flag_imageview_height"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/flag_bg"
+        android:contentDescription="@string/flag_image_desc"
+        android:padding="@dimen/flag_padding"
+        android:scaleType="fitXY"
+        android:visibility="gone" />
+
+</LinearLayout>

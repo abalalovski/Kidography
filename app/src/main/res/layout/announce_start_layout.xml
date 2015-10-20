@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.twodwarfs.kidography.views.TransparentPanel xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/panelView_fading"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:visibility="visible" >
+
+    <LinearLayout
+        android:id="@+id/textViews_layouts"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView_start_game"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:shadowColor="#fff"
+            android:shadowDx="-1"
+            android:shadowDy="-1"
+            android:shadowRadius="2"
+            android:text="@string/start_game"
+            android:textColor="@android:color/white"
+            android:textSize="54sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView_subinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:shadowColor="#000"
+            android:shadowDx="-1"
+            android:shadowDy="-1"
+            android:shadowRadius="2"
+            android:text="@android:id/empty"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:visibility="visible" />
+    </LinearLayout>
+
+</com.twodwarfs.kidography.views.TransparentPanel>

@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@null" >
+
+    <ImageView
+        android:id="@+id/imageView_left_cloud"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/left_cloud_left_margin"
+        android:layout_marginTop="@dimen/left_cloud_top_margin"
+        android:background="@drawable/cloud_left"
+        android:contentDescription="@string/rays_content_desc"
+        android:scaleType="fitStart"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/imageView_right_cloud"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="@dimen/right_cloud_right_margin"
+        android:layout_marginTop="@dimen/right_cloud_top_margin"
+        android:background="@drawable/cloud_right"
+        android:contentDescription="@string/rays_content_desc"
+        android:scaleType="fitStart"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/imageView_liberty"
+        android:layout_width="@dimen/right_landmark_width"
+        android:layout_height="@dimen/right_landmark_height"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/right_landmark_right_margin"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/liberty"
+        android:contentDescription="@string/rays_content_desc"
+        android:scaleType="fitCenter"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/imageView_eifel"
+        android:layout_width="@dimen/left_landmark_width"
+        android:layout_height="@dimen/left_landmark_height"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="@dimen/left_landmark_left_margin"
+        android:background="@drawable/eiffel"
+        android:contentDescription="@string/rays_content_desc"
+        android:scaleType="center"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/imageView_grass"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/grass_height"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-20dp"
+        android:background="@drawable/grass"
+        android:contentDescription="@string/grass_content_desc"
+        android:visibility="visible" />
+
+</RelativeLayout>

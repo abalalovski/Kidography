@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/settings_bg_side_margins"
+    android:layout_marginRight="@dimen/settings_bg_side_margins"
+    android:background="@drawable/white_gradient_bg"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView_name_dialog_title"
+        style="@style/dialogTitleStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:shadowColor="@android:color/white"
+        android:shadowDx="0"
+        android:shadowDy="1"
+        android:shadowRadius="1"
+        android:text="@string/whats_your_name"
+        android:textColor="#FFCA00" />
+
+    <View
+        android:id="@+id/separator"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/divider" />
+
+    <EditText
+        android:id="@+id/editText_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_rounded_bg"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/name_hint"
+        android:inputType="textCapCharacters|textNoSuggestions"
+        android:maxLength="10"
+        android:minHeight="50dp"
+        android:shadowColor="@android:color/white"
+        android:shadowDx="0"
+        android:shadowDy="1"
+        android:shadowRadius="1"
+        android:singleLine="true"
+        android:textColor="@color/general_titles_text_color"
+        android:textSize="22sp" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/button_ok"
+        style="@style/dialogButtonStyle"
+        android:layout_margin="10dp"
+        android:text="@string/ok" />
+
+</LinearLayout>

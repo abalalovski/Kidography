@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="tips">
+        <item>Did you know that there are two major cities located on two continents? Istanbul in Turkey and Yekaterinburg in Russia!\n\nNice, now you know!</item>
+        <item>You have limited time to answer as many as possible questions related to geography! Solve the riddles, guess the flags and the capitals, answer the questions! Easy as piece of cake!\n\nHave fun!</item>
+        <item>Whenever you see a blue text which reads GUESS, all you have to do is, well, guess!</item>
+    	<item>Did you know that nearly three quarters of the Earth\'s surface is covered by oceans?</item>
+    	<item>Did you know that the Earth is over 4 billion years old?</item>
+    	<item>Did you know that most of the world\'s major cities are found near the banks of rivers?</item>
+    	<item>The US state of California is really large area! Did you know that France is only 30% larger than California?</item>
+    	<item>Most Ancient Egyptian pyramids were built as tombs for pharaohs and their families. To date, over 130 pyramids have been discovered in Egypt.</item>
+    	<item>Unwrapped, the bandages of an Ancient Egyptian mummy could stretch for 1.6km!</item>
+    	<item>Do you know the world\'s longest city name? It\'s Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch! Seriously!</item>
+    </string-array>
+    
+    <string-array name="categories">
+        <item>Riddles</item>
+        <item>Capitals</item>
+        <item>Flags</item>
+        <item>Landmarks</item>
+    </string-array>
+
+</resources>

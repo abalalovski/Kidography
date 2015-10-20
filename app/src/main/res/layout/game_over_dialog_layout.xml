@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:background="@null"
+    android:paddingBottom="@dimen/game_over_layout_padding_top_and_bottom"
+    android:paddingTop="@dimen/game_over_layout_padding_top_and_bottom" >
+
+    <LinearLayout
+        android:id="@+id/layout_buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/settings_main_layout_buttons_top_margin"
+        android:background="@drawable/dialog_bg"
+        android:gravity="bottom|center"
+        android:paddingBottom="10dp"
+        android:visibility="visible" >
+
+        <Button
+            android:id="@+id/button_share"
+            style="@style/dialogButtonStyle"
+            android:text="@string/share" />
+
+        <Button
+            android:id="@+id/button_main_menu"
+            style="@style/dialogButtonStyle"
+            android:text="@string/main_menu" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView_game_over_title"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/settings_title_height"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/settings_title_top_margin"
+        android:contentDescription="@string/exit_label"
+        android:scaleType="fitCenter"
+        android:src="@drawable/game_over_title"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/imageView_game_over_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/exit_msg_label"
+        android:paddingLeft="0dp"
+        android:paddingTop="0dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/game_over_content"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:id="@+id/textViews_layouts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="0"
+            android:shadowDy="1"
+            android:shadowRadius="1"
+            android:text="@string/score_placeholder"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView_correct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:shadowColor="#000"
+            android:shadowDx="-1"
+            android:shadowDy="-1"
+            android:shadowRadius="2"
+            android:text="@string/correct_placeholder"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView_wrong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:shadowColor="#000"
+            android:shadowDx="-1"
+            android:shadowDy="-1"
+            android:shadowRadius="2"
+            android:text="@string/wrong_placeholder"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView_tap_to_continue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:shadowColor="#000"
+            android:shadowDx="-1"
+            android:shadowDy="-1"
+            android:shadowRadius="2"
+            android:text="@string/whats_next"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+</RelativeLayout>
